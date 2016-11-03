@@ -1,0 +1,172 @@
+html{
+    background: #F8F3BB;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #26160A;
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #5F4E32;
+}
+
+.active {
+    background-color: #959B08;
+}
+.blog {
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid white;
+    padding: 25px;
+    margin: 25px;
+}
+.about{
+    float: left;
+    width: 500px;
+    height: 500px;
+    /*border: 10px solid green;*/
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 150px;
+    
+}
+div video{
+    margin-top: 20px;
+    width: 1000px;
+    height: 500px;
+    margin-left: 150px;
+
+}
+img{
+     width: 100%;
+     height: 25%;
+}
+div article p{
+    color: #372920;
+    text-align: justify;
+    width: 500px;
+}
+.texto_t{
+    color: #372920;
+    text-align: justify;
+    width: 700px;
+}
+.titulo_templa{
+    color: #9AA40F;
+    font-family: arial;
+}
+div article h1{
+    color: #9AA40F;
+    font-family: arial;
+
+}
+
+div img{
+    margin-top: 10px;
+    margin-left: 75px;
+    width: 500px;
+    height: 500px;
+
+}
+footer{
+    display: block;
+}
+
+/******************/
+div.container {
+    width: 100%;
+    margin: 0px;
+    /*border: 1px solid gray;*/
+    line-height: 150%;
+}
+
+div.footer {
+    
+    color: white;
+    background-color:#26160A ;
+    clear: left;
+}
+
+div.left_blog {
+    float: left;
+    width: 800px;
+    padding: 5px;
+    margin-left: 50px;
+     margin-top: 10px;
+    margin-right: 10px;
+    border: 1px ;
+    
+    
+}
+div.content_blog {
+
+    margin-left: 500px;
+   border: 10px;
+    padding: 10px;
+    padding-left: 110px;
+    overflow: hidden;
+    margin-left: 50px;
+     margin-top: 10px;
+    margin-right: 10px;
+     width: 275px;
+}
+div.left {
+    float: left;
+    width: 800px;
+    margin: 0;
+    padding: 1em;
+}
+
+div.content {
+    margin-left: 190px;
+    
+    padding: 1em;
+    overflow: hidden;
+}
+
+div.left_about {
+    float: left;
+    width: 500px;
+    padding: 5px;
+    margin-left: 150px;
+}
+
+div.content_about{
+   margin-left: 190px;
+  /* border-left: 100px solid gray;
+    padding: 1em;*/
+    overflow: hidden;
+}
+
+
+h2{
+    color: #9AA40F;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+.Copyright{
+     background-color: #959B08;
+     text-align: right;
+}
+.entradas {
+    color: green;
+    font-family: arial;
+}
